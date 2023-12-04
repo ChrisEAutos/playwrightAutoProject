@@ -12,3 +12,9 @@ test('validationTest', async ({ page }) => {
     await Home.assertContactFormInfo();     
     await Home.testContactFormValidation();
 });
+
+test('sendMessage', async ({ page }) => {
+    const Home = new HomePage(page);    
+    await Home.sendMessage();
+    await Home.assertMessageSent();         
+});
