@@ -29,7 +29,7 @@ const contactFormText = [
   'Shady Meadows B&B',
   'The Old Farmhouse, Shady Street, Newfordburyshire, NE1 410S',
   '012345678901',
-  'fake1@fakeemail.com',
+  'fake@fakeemail.com',
 ];
 
 const contactName = 'AutoMan Testing';
